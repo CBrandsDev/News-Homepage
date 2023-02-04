@@ -7,5 +7,115 @@
 }
 body {
     font-family: 'Inter', sans-serif;
-    
+    margin: 30px;
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 0%, rgba(255,255,255,1) 100%);;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.btn {
+    color: hsl(236, 13%, 42%);
+    border-style: none;
+    background-color: white;
+    padding-left: 30px;
+    font-weight: 700;
+}
+header button:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+    transition: all .3s;
+}
+.main {
+    display: flex;
+    padding-top: 20px;
+}
+.mainimg {
+    display: flex;
+    padding: 10px 26px;
+    max-width: 77%;
+    height: 77%;
+}
+.card1 {
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    max-width: 370px;
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    background-color: hsl(240, 100%, 5%);
+}
+.card1 .title {
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 25px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.card1 .newstt {
+    padding-bottom: 25px;
+    padding: 10px;
+    font-weight: 800;
+    width: 440px;
+}
+.line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: hsl(236, 13%, 42%);
+    height: 1px;
+    margin: 40px 10px 40px 10px;
+    align-items: center;
+    justify-content: center;
+}
+.card1 .newstt:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+    transition: all .3s;
+}
+.card1 .notice {
+    font-weight: 400;
+    padding: 10px;
+    color: hsl(233, 8%, 79%);
+}
+.info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.info .title {
+    font-size: 50px;
+    font-weight: 800;
+    max-width: 300px;
+}
+.info .description {
+    color:hsl(236, 13%, 42%);
+    max-width: 360px;
+}
+.read {
+    border-style: none;
+    background-color: hsl(5, 85%, 63%);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    cursor: pointer;
+    color: white;
+    width: 230px;
+    padding: 15px;
+}
+.read:hover {
+    background-color: hsl(240, 100%, 5%);
+    border-radius: 5px;
+    transition: all .3s;
+}
+.cards {
+    display: grid;
 }
